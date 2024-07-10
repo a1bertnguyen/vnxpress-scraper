@@ -3,7 +3,7 @@ import requests
 from flask import Flask, jsonify
 import json
 
-app = Flask(__name__)
+app = Flask(__name__) #edit binh dep trai
 
 
 @app.route("/")
